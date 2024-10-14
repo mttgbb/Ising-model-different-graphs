@@ -1,3 +1,5 @@
+## This script contains functions for generating various graphs in both dictionary and adjacency matrix forms
+
 # Function for enumerating vertices with a tuple (useful for lattices)
 function vertex_indices(dims::Dims{2}; unitcellN::Int = 1)
 		return [(c1,c2,c3) for c1 in 0:dims[1]-1, c2 in 0:dims[2]-1, c3 in 0:unitcellN-1]
