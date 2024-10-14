@@ -1,3 +1,6 @@
+## This script contains functions for solving the Ising model using exact enumeration and simulating the Ising model using a hybrid MCMC sampler which mixes Metropolis and Swendsen-Wang steps.
+## Some basic thermodynamic and magnetic properties of interest can be output as graphs against inverse temperature.
+
 # Packages for plotting, formatting, storing data, basic statistics, and random number generation
 using Plots, PGFPlotsX, LaTeXStrings, DataFrames, Statistics, StableRNGs
 
